@@ -90,8 +90,8 @@ endif
 
 
 " automatically resize vertical splits to maximize current split
-:au WinEnter * :set winfixheight
-:au WinEnter * :wincmd =
+":au WinEnter * :set winfixheight
+":au WinEnter * :wincmd =
 
 " ---------------------------------------------------------------------------------
 " Editor layout
@@ -279,7 +279,7 @@ endif
 noremap <F2> :NERDTreeToggle<CR>
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
-let NERDTreeWinSize=10
+let NERDTreeWinSize=33
 
 " NERDCommenter
 " <leader>c
