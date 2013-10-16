@@ -220,10 +220,14 @@ inoremap jj <ESC>
 " stuff for working with split windows
 " ---------------------------------------------------------------------------------
 nnoremap <leader>w <C-w>v<C-w>l
-nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+
+" ---------------------------------------------------------------------------------
+" stuff for working with tabs
+" ---------------------------------------------------------------------------------
+nnoremap <C-l> gt
+nnoremap <C-h> gT
 
 " ---------------------------------------------------------------------------------
 " from vimcasts.org #24
