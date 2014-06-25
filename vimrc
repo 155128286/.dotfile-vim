@@ -109,10 +109,10 @@ set cmdheight=2                 " ues a status bar that is two rows high
 " ---------------------------------------------------------------------------------
 syntax on
 set background=dark
-" let g:solarized_termcolors=256
+let g:solarized_termcolors=256
 let g:solarized_termtrans = 1
-" let g:solarized_visibility = "high"
-" let g:solarized_contrast = "high"
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
 colorscheme solarized
 
 
