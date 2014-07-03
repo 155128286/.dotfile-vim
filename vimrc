@@ -182,20 +182,6 @@ nnoremap <D-]> >>
 nnoremap <D-[> <gv
 nnoremap <d-]> >gv
 
-" ---------------------------------------------------------------------------------
-" force hjkl movement keys. painful but essential
-" ---------------------------------------------------------------------------------
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <right> <nop>
-inoremap <left> <nop>
-nnoremap j gj
-nnoremap k gk
-
 " remap the help key
 " inoremap <F1> <ESC>
 " nnoremap <F1> <ESC>
