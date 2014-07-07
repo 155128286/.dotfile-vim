@@ -286,3 +286,4 @@ nnoremap <F5> :GundoToggle<CR>
 
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 
+runtime macros/matchit.vim
