@@ -284,6 +284,9 @@ nnoremap <F5> :GundoToggle<CR>
 "  finis
 " ---------------------------------------------------------------------------------
 
+" set indent size for ruby
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
-
+" enable matchit
 runtime macros/matchit.vim
+" indent guides settings
+let g:indent_guides_guide_size=1
