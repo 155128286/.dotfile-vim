@@ -290,3 +290,6 @@ autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 runtime macros/matchit.vim
 " indent guides settings
 let g:indent_guides_guide_size=1
+
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
