@@ -293,3 +293,5 @@ let g:indent_guides_guide_size=1
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
+vnoremap // y/\V<C-R>"<CR>
